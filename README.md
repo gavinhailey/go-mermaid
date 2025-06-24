@@ -4,8 +4,9 @@
 
 # Go-Mermaid
 
-![example workflow](https://github.com/gavinhailey/go-mermaid/actions/workflows/go.yml/badge.svg)
-[![Go Coverage](https://github.com/gavinhailey/go-mermaid/wiki/coverage.svg)](https://raw.githack.com/wiki/gavinhailey/go-mermaid/coverage.html)
+![ci](https://github.com/gavinhailey/go-mermaid/actions/workflows/ci.yml/badge.svg)
+[![Go Report Card](https://goreportcard.com/badge/github.com/gavinhailey/go-mermaid)](https://goreportcard.com/report/github.com/gavinhailey/go-mermaid)
+[![Go Reference](https://pkg.go.dev/badge/github.com/gavinhailey/go-mermaid.svg)](https://pkg.go.dev/github.com/gavinhailey/go-mermaid)
 
 Go-Mermaid is an open-source Go language (Golang) project designed to streamline and automate the creation of Mermaid diagrams.  
 Mermaid is a popular diagramming and charting tool that uses a simple and intuitive text-based syntax to generate a wide variety of diagrams, including flowcharts, sequence diagrams, Gantt charts, and more.
