@@ -4,7 +4,7 @@
 
 # Go-Mermaid
 
-![ci](https://github.com/gavinhailey/go-mermaid/actions/workflows/ci.yml/badge.svg)
+[![ci](https://github.com/gavinhailey/go-mermaid/actions/workflows/ci.yml/badge.svg)](https://github.com/gavinhailey/go-mermaid/actions/workflows/ci.yml)
 [![Go Report Card](https://goreportcard.com/badge/github.com/gavinhailey/go-mermaid)](https://goreportcard.com/report/github.com/gavinhailey/go-mermaid)
 [![Go Reference](https://pkg.go.dev/badge/github.com/gavinhailey/go-mermaid.svg)](https://pkg.go.dev/github.com/gavinhailey/go-mermaid)
 
