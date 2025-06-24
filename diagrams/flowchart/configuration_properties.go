@@ -134,7 +134,7 @@ func (c *FlowchartConfigurationProperties) SetArrowMarkerAbsolute(v bool) *Flowc
 	return c
 }
 
-func (c *FlowchartConfigurationProperties) String() string {
+func (c FlowchartConfigurationProperties) String() string {
 	var sb strings.Builder
 	sb.WriteString(c.ConfigurationProperties.String())
 

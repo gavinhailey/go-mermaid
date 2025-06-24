@@ -124,7 +124,7 @@ func (f *Flowchart) AddClass(name string) (newClass *Class) {
 func (f *Flowchart) String() string {
 	var sb strings.Builder
 
-	sb.WriteString(fmt.Sprintf(string(baseFlowchartDirectionString), string(f.Direction)))
+	sb.WriteString(fmt.Sprintf(baseFlowchartDirectionString, string(f.Direction)))
 
 	for _, class := range f.classes {
 		sb.WriteString(class.String())
