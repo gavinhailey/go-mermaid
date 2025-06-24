@@ -3,7 +3,7 @@ package block
 import (
 	"fmt"
 
-	"github.com/TyphonHill/go-mermaid/diagrams/utils/basediagram"
+	"github.com/gavinhailey/go-mermaid/diagrams/utils/basediagram"
 )
 
 // Mermaid link syntax templates

@@ -5,7 +5,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/TyphonHill/go-mermaid/diagrams/utils/basediagram"
+	"github.com/gavinhailey/go-mermaid/diagrams/utils/basediagram"
 )
 
 func TestNewJourneyConfigurationProperties(t *testing.T) {

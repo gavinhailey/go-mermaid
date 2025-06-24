@@ -5,8 +5,8 @@ import (
 	"path/filepath"
 	"runtime"
 
-	"github.com/TyphonHill/go-mermaid/diagrams/timeline"
-	"github.com/TyphonHill/go-mermaid/diagrams/utils/basediagram"
+	"github.com/gavinhailey/go-mermaid/diagrams/timeline"
+	"github.com/gavinhailey/go-mermaid/diagrams/utils/basediagram"
 )
 
 func main() {

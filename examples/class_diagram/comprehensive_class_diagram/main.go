@@ -5,7 +5,7 @@ import (
 	"path/filepath"
 	"runtime"
 
-	classDiagram "github.com/TyphonHill/go-mermaid/diagrams/class"
+	classDiagram "github.com/gavinhailey/go-mermaid/diagrams/class"
 )
 
 func main() {

@@ -5,7 +5,7 @@ import (
 	"path/filepath"
 	"runtime"
 
-	erd "github.com/TyphonHill/go-mermaid/diagrams/entityrelationship"
+	erd "github.com/gavinhailey/go-mermaid/diagrams/entityrelationship"
 )
 
 func main() {

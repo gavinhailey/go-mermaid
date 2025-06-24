@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/TyphonHill/go-mermaid/diagrams/utils/basediagram"
+	"github.com/gavinhailey/go-mermaid/diagrams/utils/basediagram"
 )
 
 // StateType represents the different types of states in a state diagram.

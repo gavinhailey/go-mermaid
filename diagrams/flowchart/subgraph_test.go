@@ -5,7 +5,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/TyphonHill/go-mermaid/diagrams/utils"
+	"github.com/gavinhailey/go-mermaid/diagrams/utils"
 )
 
 func TestNewSubgraph(t *testing.T) {

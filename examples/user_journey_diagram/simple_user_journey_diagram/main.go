@@ -5,7 +5,7 @@ import (
 	"path/filepath"
 	"runtime"
 
-	journey "github.com/TyphonHill/go-mermaid/diagrams/userjourney"
+	journey "github.com/gavinhailey/go-mermaid/diagrams/userjourney"
 )
 
 func main() {

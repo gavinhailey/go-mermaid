@@ -3,7 +3,7 @@ package entityrelationship
 import (
 	"fmt"
 
-	"github.com/TyphonHill/go-mermaid/diagrams/utils/basediagram"
+	"github.com/gavinhailey/go-mermaid/diagrams/utils/basediagram"
 )
 
 // Cardinality represents the relationship cardinality

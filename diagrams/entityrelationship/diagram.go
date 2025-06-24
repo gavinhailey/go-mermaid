@@ -4,8 +4,8 @@ package entityrelationship
 import (
 	"strings"
 
-	"github.com/TyphonHill/go-mermaid/diagrams/utils"
-	"github.com/TyphonHill/go-mermaid/diagrams/utils/basediagram"
+	"github.com/gavinhailey/go-mermaid/diagrams/utils"
+	"github.com/gavinhailey/go-mermaid/diagrams/utils/basediagram"
 )
 
 // Base string formats for entity relationship diagrams

@@ -5,7 +5,7 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/TyphonHill/go-mermaid/diagrams/utils/testutils"
+	"github.com/gavinhailey/go-mermaid/diagrams/utils/testutils"
 )
 
 func TestRenderToFile(t *testing.T) {

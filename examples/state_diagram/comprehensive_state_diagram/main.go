@@ -5,7 +5,7 @@ import (
 	"path/filepath"
 	"runtime"
 
-	stateDiagram "github.com/TyphonHill/go-mermaid/diagrams/state"
+	stateDiagram "github.com/gavinhailey/go-mermaid/diagrams/state"
 )
 
 func main() {

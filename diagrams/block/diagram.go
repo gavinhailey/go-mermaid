@@ -5,8 +5,8 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/TyphonHill/go-mermaid/diagrams/utils"
-	"github.com/TyphonHill/go-mermaid/diagrams/utils/basediagram"
+	"github.com/gavinhailey/go-mermaid/diagrams/utils"
+	"github.com/gavinhailey/go-mermaid/diagrams/utils/basediagram"
 )
 
 // Global ID generator for the package
