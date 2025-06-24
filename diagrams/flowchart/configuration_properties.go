@@ -1,6 +1,7 @@
 package flowchart
 
 import (
+	"sort"
 	"strings"
 
 	"github.com/gavinhailey/go-mermaid/diagrams/utils/basediagram"
@@ -133,14 +134,19 @@ func (c *FlowchartConfigurationProperties) SetArrowMarkerAbsolute(v bool) *Flowc
 	return c
 }
 
-func (c FlowchartConfigurationProperties) String() string {
+func (c *FlowchartConfigurationProperties) String() string {
 	var sb strings.Builder
 	sb.WriteString(c.ConfigurationProperties.String())
 
 	if len(c.properties) > 0 {
 		sb.WriteString(baseFlowchartConfigurationProperties)
-		for _, prop := range c.properties {
-			sb.WriteString(prop.Format())
+		keys := make([]string, 0, len(c.properties))
+		for key := range c.properties {
+			keys = append(keys, key)
+		}
+		sort.Strings(keys)
+		for _, key := range keys {
+			sb.WriteString(c.properties[key].Format())
 		}
 	}
 
